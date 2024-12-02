@@ -40,12 +40,11 @@ function Faq() {
     <>
       <Container>
         <h1 className="text-light fw-bold">Frequently Asked Questions</h1>
-        <Row> 
-{       contents.map((item)=>(
-
-    <FaqCard item={item}/>
-))
-}        </Row>
+        <Row>
+          {contents.map((item,index) => (
+            <FaqCard key={index} item={item} />
+          ))}{" "}
+        </Row>
       </Container>
     </>
   );

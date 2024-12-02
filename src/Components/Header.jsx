@@ -36,10 +36,10 @@ function Header() {
           </h5>
         </div>
       </nav>
-      <div className="box text-center py-5">
+      <div className="box1 text-center py-5">
         <p className="text-light">Ready to Watch?Enter your email to create or restart your membership.</p>
         <div className="input">
-          <input className="py-2 fs-4  me-2 rounded-5 bg-transparent border-light border-1 px-5" type="text" placeholder="Email address" name="" id="" />
+          <input className="py-2 fs-4  me-2 rounded-5 bg-transparent border-light border-1 px-5" type="text" placeholder="Email address" name="" id="" style={{color:"white"}} />
           <button className="px-5 fs-4 py-2 fw-bold text-light rounded-5 border-0 " style={{backgroundColor:"red"}}>Join Now </button>
         </div>
       </div>
